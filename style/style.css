@@ -9,8 +9,14 @@ header{
 h1{
     font-family: 'Space Mono', monospace;
     text-align: center;
+    animation: fadeIn 5s;
 
 }
+
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
 
 h2{
     font-family: 'Space Mono', monospace;
@@ -116,18 +122,15 @@ aside p{
         background-size:cover;
         height:10vw;
 
+    }
+    
 
-    }
-    @keyframes fadeIn {
-        0% { opacity: 0; }
-        100% { opacity: 1; }
-    }
 
 
     h1{
         font-family: 'Space Mono', monospace;
         text-align: center;
-        animation: fadeIn 5s;
+        
 
     }
 
