@@ -28,6 +28,26 @@ h3{
     font-size:15px;
 }
 
+h4{
+    color: #822e7e;
+}
+
+.content ul{
+    text-align: left;
+}
+
+em{
+    font-size:15px;
+}
+
+.content i{
+    font-size:20px;
+    color: #822e7e;
+}
+
+.content a:hover{
+    color: #822e7e;
+}
 
 
 .main-content{
@@ -44,7 +64,6 @@ h3{
     border-radius: 5px;
     color:white;
     padding:15px;
-
     gap:10px;
 
 }
@@ -118,38 +137,13 @@ aside p{
 @media(min-width: 992px) {
 
     header{
-        background-image: url("../img/bg.png") ;
-        background-size:cover;
         height:10vw;
 
-    }
-    
-
-
-
-    h1{
-        font-family: 'Space Mono', monospace;
-        text-align: center;
-        
-
-    }
-
-    h2{
-        font-family: 'Space Mono', monospace;
-        font-size:23px;
-        text-transform: uppercase;
-    }
-
-    h3{
-        font-size:15px;
     }
 
 
 
     .main-content{
-        gap:30px;
-        margin-top:30px;
-        justify-content: center;
         flex-direction: row;
 
     }
@@ -166,42 +160,18 @@ aside p{
 
     }
 
-    .bouton{
-        background-color: #822e7e;
-    }
-
-    aside p{
-        text-align: justify;
-    }
-
-    .social{
-        text-align: center;
-        font-size:40px;
-
-    }
-
-    .social a:hover{
-        color:#822e7e;
-    }
-
-    .img-content{
-        text-align: center;
-    }
-
-    .img-presentation{
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-    }
 
 
-
-    .part{
+    .formation-part{
         animation: fadeInRight 2s ease-in-out;
-        box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.16);
-        margin-bottom: 15px;
-        padding:10px;
-        border-radius: 15px;
+    }
+
+    .xppro-part{
+        animation: fadeInRight 3s ease-in-out;
+    }
+
+    .hobbies-part{
+        animation: fadeInRight 4s ease-in-out;
     }
 
     @keyframes fadeInRight {
